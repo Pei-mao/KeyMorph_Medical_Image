@@ -4,7 +4,7 @@ from keymorph.utils import rescale_intensity
 TRANSFORM = tio.Compose(
     [
         tio.ToCanonical(),
-        tio.Mask(masking_method="mask"),
+        #tio.Mask(masking_method="mask"),
         tio.Resize(128),
         tio.Lambda(rescale_intensity),
     ]

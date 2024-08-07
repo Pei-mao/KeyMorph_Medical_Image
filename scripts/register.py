@@ -13,7 +13,7 @@ from keymorph.net import ConvNet
 from dataset.utils import PairedDataset
 import scripts.hyperparameters as hps
 from scripts.pairwise_register_eval import run_eval
-from scripts.groupwise_register_eval import run_group_eval
+#from scripts.groupwise_register_eval import run_group_eval
 from scripts.script_utils import summary, load_checkpoint
 
 
